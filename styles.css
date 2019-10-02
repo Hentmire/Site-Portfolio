@@ -169,6 +169,9 @@
   color: #71ABFF;
   opacity: 0.7;
 }
+.work:first-child {
+  margin-top: 40px;
+}
 .work__slider {
   max-width: 700px;
   height: 377px;
