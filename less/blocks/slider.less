@@ -1,15 +1,15 @@
-.person-works__slider {
+.work__slider {
     max-width: 700px;
     height: 377px;
     position: relative;
     margin-top: 20px;
 }
 
-.person-works__slider > input {
+.work__slider > input {
     display: none;
 }
 
-.person-works__slider > input + label {
+.work__slider > input + label {
     width: 6px;
     height: 6px;
     .border-radius(50%);
@@ -23,16 +23,16 @@
     transition: background 0.8s ease-out 0s;
 }
 
-.person-works__slider > input + label:hover {
+.work__slider > input + label:hover {
     background-color: @color-white;
     border: 1px solid @color-white;
 }
 
-.person-works__slider > input:checked + label {
+.work__slider > input:checked + label {
     background-color: @color-bgGrey;
 }
 
-.person-works__slider > div {
+.work__slider > div {
     position: absolute;
     top: 0;
     left: 0;
@@ -41,19 +41,19 @@
     transition: opacity 0.6s ease-out 0.1s, visibility 0.1s ease-out 0.7s;
 }
 
-.person-works__slider > div > img {
+.work__slider > div > img {
     width: 700px;
     height: 377px;
     .border-radius(8px);
 }
 
-.person-works__slider > input:checked + label + div {
+.work__slider > input:checked + label + div {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.6s ease-out 0.1s, visibility 0.1s ease-out 0s;
 }
 
-.person-works__slider > div > p {
+.work__slider > div > p {
     position: absolute;
     top: 397px;
     .sans-font(14px, @color-white, 20px);
@@ -62,7 +62,7 @@
     max-width: 520px; 
 }
 
-.person-works__slider > input + label + div + label {
+.work__slider > input + label + div + label {
     width: 700px;
     height: 377px;
     .border-radius(8px);
@@ -71,6 +71,6 @@
     position: relative;
 }
 
-.person-works__slider > input:checked + label + div + label {
+.work__slider > input:checked + label + div + label {
     position: absolute;
 }

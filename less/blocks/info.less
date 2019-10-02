@@ -3,14 +3,14 @@
     padding: 0;
 }
 
-.person-info {
+.info {
     background-color: @color-bgLightGrey;
     width: 100%;
     height: 100vh;
     display: flex;
 }
 
-.person-info .container {
+.info .container {
     text-align: center;
 }
 
@@ -19,22 +19,22 @@
     max-width: 700px;
 }
 
-.person-info__img {
+.info__img {
     max-width: 340px;
     padding-bottom: 36px;
     .border-radius(50%);
 }
 
-.person-info__description h1 {
+.info__description h1 {
     .bold-font(40px, @color-black, 44px);
     padding-bottom: 8px;
 }
 
-.person-info__description span {
+.info__description span {
     .mono-font(14px, @color-black, 20px);
 }
 
-.person-info__btn {
+.info__btn {
     text-decoration: none;
     .bold-font(18px, @color-white, 24px);
     display: block;
@@ -49,12 +49,12 @@
     transition: 0.3s;
 }
 
-.person-info__btn:hover {
+.info__btn:hover {
     background-color: @color-black;
     transition: 0.3s;
 }
 
-.person-info__btn:active {
+.info__btn:active {
     opacity: 0.7;
     background-color: @color-blue;
 }
