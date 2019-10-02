@@ -169,7 +169,7 @@
   color: #71ABFF;
   opacity: 0.7;
 }
-.work:first-child {
+.work_first {
   margin-top: 40px;
 }
 .work__slider {
